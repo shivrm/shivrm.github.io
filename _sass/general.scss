@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    font-display: swap;
+    src: url(/assets/robotoslab.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-display: swap;
+    src: url(/assets/sourceserifpro.woff2) format('woff2');
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    font: normal 1.3rem/1.6 "Source Serif Pro", serif;
+    padding: 40px 2%;
+    --link: #3161e3;
+}
+
+
+.dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+    --link: #55aafe;
+}
+
+// Used for initial load.
+@media (prefers-color-theme: dark) {
+    body {
+        background-color: #2a2a2a;
+        color: #fafafa;
+    }
+}
+
+// Remove visited link distinct color
+a:link, a:visited {
+    color: var(--link);
+    text-decoration: none;
+}
+
+// Keep images readable in both modes.
+.dark img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.htop {
+    display: flex;
+}
+
+#title {
+    margin: 0;
+}
+
+// Center theme button vertically, and put it 1em away from right border
+#theme {
+    margin: auto 1em auto auto;   
+}
+
+// Make SVG larger + transition
+#theme img {
+    min-width: 36px;
+    transition: 0.1s;
+}
+
+#theme img:hover {
+    transform: scale(1.2);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Roboto Slab";
+}
+
+// Make code blocks scroll instead of overflow
+pre {
+    overflow-x: auto;
+}
+
+img {
+    display:block;
+    max-width:100%;
+    margin:auto;
+}

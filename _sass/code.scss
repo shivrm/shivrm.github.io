@@ -1,0 +1,149 @@
+.highlight table td {
+  padding: 5px
+}
+
+.highlight table pre {
+  margin: 0
+}
+
+.c,
+.c1,
+.cd,
+.ch,
+.cm,
+.cpf {
+  color: #949494;
+  font-style: italic
+}
+
+.cp,
+.cs {
+  color: #75715e;
+  font-weight: 700
+}
+
+.cs {
+  font-style: italic
+}
+
+.err {
+  color: #960050
+}
+
+.ge {
+  font-style: italic
+}
+
+.gr,
+.gt {
+  color: #a00
+}
+
+.gh {
+  color: #999
+}
+
+.go {
+  color: #888
+}
+
+.gp {
+  color: #555
+}
+
+.gs {
+  font-weight: 700
+}
+
+.gu {
+  color: #aaa
+}
+
+.k,
+.kc,
+.kd,
+.kp,
+.kr,
+.kt,
+.kv {
+  color: #66d9ef;
+  font-weight: 700
+}
+
+.kn,
+.o,
+.ow {
+  color: #f92672;
+  font-weight: 700
+}
+
+.il,
+.m,
+.mb,
+.mf,
+.mh,
+.mi,
+.mo,
+.mx,
+.se {
+  color: #ae81ff
+}
+
+.sa {
+  color: #66d9ef;
+  font-weight: 700
+}
+
+.dl,
+.s,
+.s1,
+.s2,
+.sb,
+.sc,
+.sd,
+.sh,
+.si,
+.sr,
+.ss,
+.sx {
+  color: #b77d00
+}
+
+.na {
+  color: #09e72a
+}
+
+.fm,
+.nc,
+.nd,
+.ne,
+.nf {
+  color: #2bb945;
+  font-weight: 700
+}
+
+.no {
+  color: #1bccef
+}
+
+.nl {
+  font-weight: 700
+}
+
+.nt {
+  color: #f92672
+}
+
+code {
+  font-size: 0.8em;
+}
+
+:not(pre) > code {
+  background-color: #00000030;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+pre.highlight{
+  padding: 0.5em 1em;
+}

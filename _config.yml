@@ -1,0 +1,13 @@
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge 
+
+sass:
+  style: compressed
+
+collections:
+  posts:
+    output: true
+
+url: https://shivrm.github.io
+permalink: /blog/:title

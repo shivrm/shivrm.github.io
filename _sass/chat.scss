@@ -1,0 +1,20 @@
+.chat {
+    max-width: 80%;
+    width: max-content;
+
+    word-wrap: break-word;
+
+    margin-right: auto;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+
+    border: 2px solid rgb(136, 0, 255);
+    background-color: rgba(136, 0, 255, 0.221);
+}
+
+.dark .chat {
+    border: 2px solid #622473;
+    background-color: rgba(106, 0, 255, 0.075);
+}
+
+.chat p {margin: 0;}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4990e2">
+
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Shivram | {{ page.title }}</title>
+</head>
+
+<body>
+    {{ content }}
+</body>
+    
+<script>
+    document.getElementById('theme').hidden = false;
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.body.classList.add("dark");
+</script>
+
+</html>
